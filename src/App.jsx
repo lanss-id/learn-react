@@ -1,9 +1,13 @@
+import React from 'react'
 import PlaceContentCenter from './components/PlaceContentCenter'
+import Todo from './components/Todo'
 
-export default function App() {
+function App() {
     return (
         <PlaceContentCenter>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum inventore, corporis earum repudiandae soluta omnis molestias, maiores, commodi sunt nemo.
+            <Todo />
         </PlaceContentCenter>
     )
 }
+
+export default App
